@@ -1,10 +1,12 @@
 # Procesamiento de Lenguaje Natural y Minería de Texto
 
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:a1452b5261ebdf832c8298c4e551166d77624c60/)](https://archive.softwareheritage.org/swh:1:dir:a1452b5261ebdf832c8298c4e551166d77624c60;origin=https://github.com/madrueno/urjc-gicd-pln-mt;visit=swh:1:snp:cfb7c55f09526c8f033a1a14e3b60b6a129e4275;anchor=swh:1:rev:c782fc0130db6cef7c4ae31e7a55c07cdd970148)
+
 Material docente en abierto de la Universidad Rey Juan Carlos para la asignatura de Procesamiento de Lenguaje Natural y Minería de Texto del Grado en Ciencia e Ingeniería de Datos.
 
 Este repositorio incluye ejercicios prácticos y códigos de ejemplo:
 - **GitHub**: [madrueno/urjc-gicd-pln-mt](https://github.com/madrueno/urjc-gicd-pln-mt)
-
+- **Software Heritage**: [swh:1:dir:a1452b5261ebdf832c8298c4e551166d77624c60](https://archive.softwareheritage.org/swh:1:dir:a1452b5261ebdf832c8298c4e551166d77624c60)
 
 Actualizado el 15/02/2026. Elaborado por:
 - Natalia Madrueño Sierro (natalia.madrueno@urjc.es) - URJC
