@@ -1,0 +1,19 @@
+[project]
+name = "06-aplicaciones"
+version = "0.1.0"
+description = "Aplicaciones de procesamiento de lenguaje natural y minería de texto"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "jupyter>=1.0.0",
+    "notebook>=7.0.0",
+    "jupyterlab>=4.0.0",
+    "ipywidgets>=8.0.0",
+    "ipykernel>=6.0.0",
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-huggingface>=1.2.0",
+    "langchain-chroma>=1.1.0",
+    "langchain-openai>=1.1.9",
+    "sentence-transformers>=5.2.2",
+]

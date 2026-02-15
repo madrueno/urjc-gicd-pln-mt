@@ -1,0 +1,23 @@
+[project]
+name = "05-transformers"
+version = "0.1.0"
+description = "Transformers y modelos de lenguaje"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "jupyter>=1.0.0",
+    "notebook>=7.0.0",
+    "jupyterlab>=4.0.0",
+    "ipywidgets>=8.0.0",
+    "ipykernel>=6.0.0",
+    "numpy>=2.4.2",
+    "tensorflow>=2.20.0",
+    "datasets>=4.5.0",
+    "transformers>=5.1.0",
+    "torch>=2.10.0",
+    "accelerate>=1.12.0",
+    "scikit-learn>=1.8.0",
+    "keras-nlp>=0.26.0",
+    "openpyxl>=3.1.5",
+    "gensim>=4.4.0",
+]

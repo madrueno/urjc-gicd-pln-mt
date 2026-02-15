@@ -1,0 +1,15 @@
+# Data files
+data/raw/**
+!data/raw/
+!data/raw/.gitkeep
+
+# Models external
+models/external/**
+!models/external/
+!models/external/.gitkeep
+
+# Models custom
+models/custom/**
+!models/custom/
+!models/custom/.gitkeep
+

@@ -1,0 +1,81 @@
+[project]
+name = "spam-ham-detector"
+version = "0.1.0"
+description = "YouTube comment spam detection using machine learning"
+readme = "README.md"
+
+requires-python = ">=3.11,<3.13"
+
+dependencies = [
+    "jupyter>=1.0.0",
+    "notebook>=7.0.0",
+    "jupyterlab>=4.0.0",
+    "ipywidgets>=8.0.0",
+    "ipykernel>=6.0.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.5.0",
+    "sentence-transformers>=5.2.0",
+    "gensim>=4.3.0",
+    "spacy>=3.7.0",
+    "en-core-web-sm",
+    "tqdm>=4.66.0",
+    "matplotlib>=3.10.8",
+    "seaborn>=0.13.2",
+    "transformers>=4.45.0",
+    "torch>=2.0.0",
+    "accelerate>=1.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.9.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+target-version = "py311"
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "*.egg-info",
+    ".pytest_cache",
+    ".ipynb_checkpoints",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # Pyflakes
+    "W",   # pycodestyle warnings
+    "I",   # isort
+]
+ignore = [
+    "E501",  # Line too long (handled by formatter)
+]
+extend-select = [
+    "UP",    # pyupgrade (modern Python syntax)
+    "C4",    # flake8-comprehensions
+    "RET",   # flake8-return
+    "SIM",   # flake8-simplify
+]
+
+[tool.ruff.lint.isort]
+lines-after-imports = 2
+combine-as-imports = false
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+line-ending = "auto"
+docstring-code-format = true
+skip-magic-trailing-comma = true
