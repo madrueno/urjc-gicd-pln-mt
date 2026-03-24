@@ -1,14 +1,11 @@
 # Procesamiento de Lenguaje Natural y Minería de Texto
 
-[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:a1452b5261ebdf832c8298c4e551166d77624c60/)](https://archive.softwareheritage.org/swh:1:dir:a1452b5261ebdf832c8298c4e551166d77624c60;origin=https://github.com/madrueno/urjc-gicd-pln-mt;visit=swh:1:snp:cfb7c55f09526c8f033a1a14e3b60b6a129e4275;anchor=swh:1:rev:c782fc0130db6cef7c4ae31e7a55c07cdd970148)
-
 Material docente en abierto de la Universidad Rey Juan Carlos para la asignatura de Procesamiento de Lenguaje Natural y Minería de Texto del Grado en Ciencia e Ingeniería de Datos.
 
 Este repositorio incluye ejercicios prácticos y códigos de ejemplo:
-- **GitHub**: [madrueno/urjc-gicd-pln-mt](https://github.com/madrueno/urjc-gicd-pln-mt)
-- **Software Heritage**: [swh:1:dir:a1452b5261ebdf832c8298c4e551166d77624c60](https://archive.softwareheritage.org/swh:1:dir:a1452b5261ebdf832c8298c4e551166d77624c60)
+- **GitHub**: [madrueno/urjc-gcid-pln-mt](https://github.com/madrueno/urjc-gcid-pln-mt)
 
-Actualizado el 15/02/2026. Elaborado por:
+Actualizado el 24/03/2026. Elaborado por:
 - Natalia Madrueño Sierro (natalia.madrueno@urjc.es) - URJC
 - Alberto Fernández Isabel (alberto.fernandez.isabel@urjc.es) - URJC
 - Soto Montalvo Herranz (soto.montalvo@urjc.es) - URJC
@@ -63,8 +60,8 @@ XX-nombre/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone git@github.com:madrueno/urjc-gicd-pln-mt.git
-cd urjc-gicd-pln-mt
+git clone git@github.com:madrueno/urjc-gcid-pln-mt.git
+cd urjc-gcid-pln-mt
 ```
 
 ### 2. Trabajar con un tema específico
@@ -122,7 +119,7 @@ uv run jupyter notebook
 
 ## Licencia
 
-Este trabajo está licenciado bajo [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/).
+El contenido de este repositorio se distribuye bajo la licencia [GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-only.html). El material en abierto de esta asignatura está licenciado bajo [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/).
 
 >©2026 Natalia Madrueño Sierro, Alberto Fernández Isabel y Soto Montalvo Herranz
 >Algunos derechos reservados  
